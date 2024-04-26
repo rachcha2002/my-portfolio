@@ -1,7 +1,10 @@
 import React from "react";
-import { FiArrowRight } from "react-icons/fi";
-import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { ArrowRightIcon } from "@heroicons/react/outline";
+
 import logo from "../Files/rachithLogo.png";
+import linkedin from "../Files/linkedin.png";
+import github from "../Files/github.png";
+import facebook from "../Files/facebook.png";
 
 function Navbar() {
   return (
@@ -25,27 +28,27 @@ function Navbar() {
           href="https://github.com/rachcha2002"
           className="text-gray-400 hover:text-gray-300 mr-4"
         >
-          <FaGithub className="w-6 h-6" />
+          <img src={github} alt="Rachith Tharana" className="w-8 h-8 " />
         </a>
         <a
           href="linkedin.com/in/rachith-tharana-a27a532a0"
           className="text-gray-400 hover:text-gray-300 mr-4"
         >
-          <FaLinkedin className="w-6 h-6" />
+          <img src={linkedin} alt="Rachith Tharana" className="w-8 h-8 " />
         </a>
         <a
           href="https://www.facebook.com/profile.php?id=61550494125956"
           className="text-gray-400 hover:text-gray-300"
         >
-          <FaFacebook className="w-6 h-6" />
+          <img src={facebook} alt="Rachith Tharana" className="w-8 h-8 " />
         </a>
         <a
           href="#contact"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
-          style={{ margin: "1%" }}
+          style={{ marginLeft: "1%" }}
         >
           Hire Me
-          <FiArrowRight className="w-4 h-4 ml-1" />
+          <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
       </div>
     </header>
