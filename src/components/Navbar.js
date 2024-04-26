@@ -31,7 +31,7 @@ function Navbar() {
           <img src={github} alt="Rachith Tharana" className="w-8 h-8 " />
         </a>
         <a
-          href="linkedin.com/in/rachith-tharana-a27a532a0"
+          href="https://www.linkedin.com/in/rachith-tharana-a27a532a0/"
           className="text-gray-400 hover:text-gray-300 mr-4"
         >
           <img src={linkedin} alt="Rachith Tharana" className="w-8 h-8 " />
