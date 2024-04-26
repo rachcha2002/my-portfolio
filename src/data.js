@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
+    title: "Autocenter Management System",
     subtitle: "MERN Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "This a web based autocenter management system. This system consiste of major eight functions.The employee management is my major contribution here.",
+    //image: "./project-1.gif",
+    link: "https://github.com/rachcha2002/ITP-Project",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "My Planner",
+    subtitle: "Java",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "This is web based application which is developed using JAVA for event planing company. This application is used to intract with cutomers and manage events.",
+    //image: "./project-2.gif",
+    link: "https://github.com/rachcha2002/rachcha2002-MyPlanner-onlineEventPlanner",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Honour Ballot",
+    subtitle: "HTML/CSS/JS/PHP/SQL",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "This is web based system design to take vote for award ceremonies to decide the winners. This system is developed using HTML, CSS, JS, PHP and SQL.",
+    //image: "./project-3.gif",
+    link: "https://github.com/rachcha2002/rachcha2002-HonourBallot-onlineVotingSystem",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Brick Wrecker Game",
+    subtitle: "Kotlin",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "Simple android game developed using Kotlin. This game is developed based on famous brick breaker game. This game is developed using Android Studio.",
+    //image: "./project-4.gif",
+    link: "https://github.com/rachcha2002/BrickWreckerGameAndroid",
   },
 ];
 
@@ -53,8 +53,38 @@ export const testimonials = [
 export const skills = [
   "JavaScript",
   "React",
-  "Next.js",
+  "Express.js",
   "Node",
-  "GraphQL",
-  "Material UI",
+  "SQL",
+  "Bootstrap",
+  "Tailwind",
+  "Java",
+  "Kotlin",
+  "HTML",
+  "CSS",
+  "PHP",
+  "MongoDB",
+  "Firebase",
+  "Git & Github",
+  "C/C++",
+  "Python",
+  "Postman",
+];
+
+export const educationData = [
+  {
+    degreeName: "Underdarduate Bachelor of Science in Software Engineering",
+    description:
+      "I am currently studying at SLIIT, Malabe and I am in the end of my second year with 3.84/4 cumulative GPA.",
+  },
+  {
+    degreeName: "Advance Level-Physical Science Stream",
+    description:
+      "I have done my advanced level examination in 2021 at Ananda College, Colombo and I was able pass all subjects.",
+  },
+  {
+    degreeName: "Ordinary Level",
+    description:
+      "I have done my ordinary level examination in 2018 at Thurstan College, Colombo and I was able pass all subjects with high score(A9).",
+  },
 ];
